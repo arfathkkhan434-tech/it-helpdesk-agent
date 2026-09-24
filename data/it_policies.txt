@@ -1,0 +1,28 @@
+========================================
+ENTERPRISE IT HELP DESK POLICIES & SOP
+========================================
+
+========================================
+ACCOUNT & PASSWORD POLICY
+========================================
+- Password resets and account unlocks are standard L1 procedures.
+- The IT Agent is pre-approved to verify identity and trigger password reset links autonomously.
+- Passwords must have a minimum of 12 characters.
+
+========================================
+SOFTWARE INSTALLATION POLICY
+========================================
+- PRE-APPROVED SOFTWARE: Docker Desktop, VS Code, Git, Google Chrome, Slack, Zoom. The AI agent can deploy these autonomously.
+- RESTRICTED SOFTWARE: Figma, Tableau, AWS CLI (Production). These require explicit human manager approval. The AI agent must refuse autonomous installation for restricted software and instruct the user to get manager sign-off.
+
+========================================
+ACCESS & PERMISSIONS POLICY
+========================================
+- Basic developer access (GitHub organization access, Jira, Confluence) is pre-approved and can be provisioned by the AI agent.
+- Production database access or AWS Root access is strictly prohibited and must be escalated to DevOps.
+
+========================================
+HARDWARE REQUISITION POLICY
+========================================
+- Standard peripherals (mice, keyboards, monitors, headsets) are pre-approved and can be ordered autonomously by the AI agent.
+- High-value hardware (laptops, MacBooks, phones, tablets) require human manager approval. The AI agent must refuse to order laptops/phones automatically and instead instruct the user to email their manager for approval.

@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+streamlit
+requests
+pydantic
+sqlalchemy
+chromadb
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+python-dotenv
